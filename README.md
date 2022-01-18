@@ -2,13 +2,13 @@
 
 ## A1.1. 
 First of all, I called two libraries. *numpy and seaborn*.
-The codes I used for this:     
+The codes I used for that:     
 ```
 import numpy as np
 import seaborn as sns
 ```
 I created a numpy array of random integers. I set a size for it (100X100 matris). This index of integers ranges from [0, 100].
-The code I use for this is:
+The code I used for that:
 ```
 array= np.random.randint(0,101, size=(100,100))
 ```
@@ -38,8 +38,8 @@ For the output [Final MBG6133- Şeyma Yıldız](https://github.com/seymayldz/bio
 
 ## A2.1. 
 
-I wanted to separate the odd numbers from the numbers in the array I created with the ```array %2!=0``` code. With the code here, I said "do not get 0 when the numbers in the array are divided by 2". ! used to negate the sign. For the output [Final MBG6133- Şeyma Yıldız](https://github.com/seymayldz/bioinformatics-data-skills/blob/9ac366576abdc8fa49000b269de82be689f7bde4/Final%20MBG6133-%20%C5%9Eeyma%20YILDIZ.ipynb) you can go to Out[6]. 
-The output here is true, false. I wanted to change it to [0,1]. The code I use for this is: 
+I wanted to separate the odd numbers from the numbers in the array I created with the ```array %2!=0``` code. With the code here, I said "do not get 0 when the numbers in the array are divided by 2". "!" used to negate the sign. For the output [Final MBG6133- Şeyma Yıldız](https://github.com/seymayldz/bioinformatics-data-skills/blob/9ac366576abdc8fa49000b269de82be689f7bde4/Final%20MBG6133-%20%C5%9Eeyma%20YILDIZ.ipynb) you can go to Out[6]. 
+The output here is true, false. I wanted to change it to [0,1]. The code I used for that: 
 ```
 new_array.astype(int)
 ``` 
@@ -51,11 +51,11 @@ This command can also be used to transform vectors, matrices and columns in an a
 
 ## A2.2. 
 
-As in A1.2, I created a heatmap here as well. I created a new array in A2.1. Its name was *new_array*. I created a heatmap for it. Here I used the code ```new_array.astype(int)``` that I used before, inside the ```sns.heatmap()``` command. The code was like this: 
+As in A1.2, I created a heatmap here as well. I created a new array in A2.1. It's name was *new_array*. I created a heatmap for it. Here I used the code ```new_array.astype(int)``` that I used before, inside the ```sns.heatmap()``` command. The code was like this: 
 ```
 sns.heatmap(new_array.astype(int))
 ``` 
-When I ran this code, * < axessubplot :> * text appeared on the heatmap. I used one more code to delete this post. Code: 
+When I ran this code, *< axessubplot :>* text appeared on the heatmap. I used one more code to delete this post. Code: 
 ```
 plt.show()
 ``` 
