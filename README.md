@@ -1,16 +1,14 @@
 # bioinformatics-data-skills
 
 ## A1.1. 
-
 First of all, I called two libraries. *numpy and seaborn*.
-
 The codes I used for this:     ```import numpy as np
                                   import seaborn as sns```
-Rastgele tam sayılardan oluşan bir numpy dizisi oluşturdum. bunun için bir size belirledim. (100X100 matris) Bu tam sayılar dizini [0, 100] arasındadır. 
-bunun için kullandığım kod: ```array= np.random.randint(0,101, size=(100,100))```
-bu oluşturduğum diziye "array" adını verdim. Ve 100'ü de dahil ettim. integers olması için kod da 'int' geçiyor.
-kodu çalıştırmak için ```array``` yazıp komutu çalıştırdım.
-çok uzun bir sayı dizisi seçtiğim için arada noktalar var. ama bir kaçını buradan görebilirim. burada ki output için Final MBG6133- Şeyma YILDIZ-Copy1 dosyasına gidip out[4]'e bakabilirsiniz.
+I created a numpy array of random integers. I set a size for it (100X100 matris). This index of integers ranges from [0, 100].
+The code I use for this is:```array= np.random.randint(0,101, size=(100,100))```
+I named this array I created "array". And I included 100. The code also passes 'int' to be integers.
+To run the code I typed ```array``` and run the code.
+There are dots in between because I chose a very long string of numbers. But I can see a few of them here. burada ki output için Final MBG6133- Şeyma YILDIZ-Copy1 dosyasına gidip out[4]'e bakabilirsiniz.
 
 ## A1.2.
 
