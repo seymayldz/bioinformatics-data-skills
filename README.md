@@ -3,6 +3,7 @@
 ## A1.1. 
 
 First of all, I called two libraries. *numpy and seaborn*.
+
 The codes I used for this:     ```import numpy as np
                                   import seaborn as sns```
 Rastgele tam sayılardan oluşan bir numpy dizisi oluşturdum. bunun için bir size belirledim. (100X100 matris) Bu tam sayılar dizini [0, 100] arasındadır. 
