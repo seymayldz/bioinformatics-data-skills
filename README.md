@@ -2,9 +2,9 @@
 
 ## A1.1. 
 
-Öncelikle iki tane kütüphane çağırdım. numpy and seaborn.
-bunun için kullandığım kodlar: ```import numpy as np```
-                               ```import seaborn as sns```
+First of all, I called two libraries. *numpy and seaborn*.
+Bunun için kullandığım kodlar: ```import numpy as np
+                                  import seaborn as sns```
 Rastgele tam sayılardan oluşan bir numpy dizisi oluşturdum. bunun için bir size belirledim. (100X100 matris) Bu tam sayılar dizini [0, 100] arasındadır. 
 bunun için kullandığım kod: ```array= np.random.randint(0,101, size=(100,100))```
 bu oluşturduğum diziye "array" adını verdim. Ve 100'ü de dahil ettim. integers olması için kod da 'int' geçiyor.
