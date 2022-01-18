@@ -2,31 +2,68 @@
 
 ## A1.1. 
 First of all, I called two libraries. *numpy and seaborn*.
-The codes I used for this:     ```import numpy as np
-                                  import seaborn as sns```
+The codes I used for this:     
+```
+import numpy as np
+import seaborn as sns
+```
 I created a numpy array of random integers. I set a size for it (100X100 matris). This index of integers ranges from [0, 100].
-The code I use for this is:```array= np.random.randint(0,101, size=(100,100))```
+The code I use for this is:
+```
+array= np.random.randint(0,101, size=(100,100))
+```
 I named this array I created "array". And I included 100. The code also passes 'int' to be integers.
 To run the code I typed ```array``` and run the code.
-There are dots in between because I chose a very long string of numbers. But I can see a few of them here. burada ki output için Final MBG6133- Şeyma YILDIZ-Copy1 dosyasına gidip out[4]'e bakabilirsiniz.
+There are dots in between because I chose a very long string of numbers. But I can see a few of them here. For the output [Final MBG6133- Şeyma Yıldız](https://github.com/seymayldz/bioinformatics-data-skills/blob/9ac366576abdc8fa49000b269de82be689f7bde4/Final%20MBG6133-%20%C5%9Eeyma%20YILDIZ.ipynb) you can go to out[4].
 
 ## A1.2.
 
-Daha önce oluşturduğum array için bir headmap oluşturdum. bunu yaparken kullandığım kod: ```sns.heatmap(array)```.
-Bu kodu çalıştırdığımda headmap üzerinde * < axessubplot :> * yazısı çıktı. bu yazıyı silmek için bir kod daha kullandım. kod: ```plt.show()```
-oluşturduğum headmap'i "poster" kodu ile göstermek için bir kütüphane daha çağırmam gerekti. bunun için kullandığım kod: ```import matplotlib.pylab as plt```
-bu kütüphaneyi çağırdıktan sonra poster haline getirmek için kullandığım kod: ```sns.set_context("poster")```. burada ki output için Final MBG6133- Şeyma YILDIZ-Copy1 dosyasına gidip In[5]'e bakabilirsiniz.
+I created a heatmap for the array I created earlier. The code I use to do this:
+```
+sns.heatmap(array)
+```
+When I ran this code, *< axessubplot :>* text appeared on the headmap. I used one more code to delete this post. Code: 
+```
+plt.show()
+```
+I had to call another library to show the headmap I created with "poster" code. The code I use for this is: 
+```
+import matplotlib.pylab as plt
+```
+Here is the code I used to make a poster after calling this library: 
+```
+sns.set_context("poster")
+```
+For the output [Final MBG6133- Şeyma Yıldız](https://github.com/seymayldz/bioinformatics-data-skills/blob/9ac366576abdc8fa49000b269de82be689f7bde4/Final%20MBG6133-%20%C5%9Eeyma%20YILDIZ.ipynb) you can go to In[5]. 
 
 ## A2.1. 
 
-```array %2!=0``` kodu ile oluşturduğum dizideki sayılardan tek sayı olanları ayırmak istedim. buradaki kod ile dizideki sayılar 2'ye bölündüğünde sonuç 0 çıkanları alma demiş oldum. ! işareti olumsuzlamak için kullanılıyor. burada ki output için Final MBG6133- Şeyma YILDIZ-Copy1 dosyasına gidip Out[6]'e bakabilirsiniz. 
-burada output True, False şeklinde çıktı. bunu [0,1] şeklinde değiştirmek istedim. bunun için kullandığım kod: ```new_array.astype(int)``` python da 0 yanlış anlamına geliyor. 1 de doğru anlamına geliyor. bu  kullandığım kod ile oluşturduğum diziye yeni bir isim verdim. new_array.  ```.astype(int)``` bu komut da array içinde ki vektörleri, matrisleri ve sütunları dönüştürmek için kullanılabilir. However, int() is a Python function that can only be applied to scalar values. burada ki output için Final MBG6133- Şeyma YILDIZ-Copy1 dosyasına gidip Out[9]'e bakabilirsiniz.
-
+I wanted to separate the odd numbers from the numbers in the array I created with the ```array %2!=0``` code. With the code here, I said "do not get 0 when the numbers in the array are divided by 2". ! used to negate the sign. For the output [Final MBG6133- Şeyma Yıldız](https://github.com/seymayldz/bioinformatics-data-skills/blob/9ac366576abdc8fa49000b269de82be689f7bde4/Final%20MBG6133-%20%C5%9Eeyma%20YILDIZ.ipynb) you can go to Out[6]. 
+The output here is true, false. I wanted to change it to [0,1]. The code I use for this is: 
+```
+new_array.astype(int)
+``` 
+0 means false in python. 1 means correct.I gave a new name to the array I created with this code I used. *new_array.*  
+```
+.astype(int)
+``` 
+This command can also be used to transform vectors, matrices and columns in an array. However, int() is a Python function that can only be applied to scalar values. For the output [Final MBG6133- Şeyma Yıldız](https://github.com/seymayldz/bioinformatics-data-skills/blob/9ac366576abdc8fa49000b269de82be689f7bde4/Final%20MBG6133-%20%C5%9Eeyma%20YILDIZ.ipynb) you can go to Out[9]. 
 
 ## A2.2. 
 
-A1.2 de olduğu gibi burda da bir headmap oluşturdum. A2.1 de yeni bir array oluşturmuştum. ismi new_array. bunun için bir headmap oluşturdum. burada ```sns.headmap()``` komutunun içine daha önce kullandığım ```new_array.astype(int)``` kodunu kullandım. kod şu şekilde ```sns.heatmap(new_array.astype(int))``` oldu. Bu kodu çalıştırdığımda headmap üzerinde * < axessubplot :> * yazısı çıktı. bu yazıyı silmek için bir kod daha kullandım. kod: ```plt.show()``` oluşturduğum headmap'i "poster" kodu ile göstermek için daha önce kütüphane çağırmıştım. tekrar çağırmama gerek yok. yine burada poster haline getirdim. ```sns.set_context("poster")``` kodunu kullandım. burada ki output için Final MBG6133- Şeyma YILDIZ-Copy1 dosyasına gidip In[14]'e bakabilirsiniz.
-
+As in A1.2, I created a heatmap here as well. I created a new array in A2.1. Its name was *new_array*. I created a heatmap for it. Here I used the code ```new_array.astype(int)``` that I used before, inside the ```sns.heatmap()``` command. The code was like this: 
+```
+sns.heatmap(new_array.astype(int))
+``` 
+When I ran this code, * < axessubplot :> * text appeared on the heatmap. I used one more code to delete this post. Code: 
+```
+plt.show()
+``` 
+I had previously called a library to show the heatmap I created with the "poster" code. I don't need to call again. I've made it a poster here again. 
+```
+sns.set_context("poster")
+``` 
+I used your code.  For the output [Final MBG6133- Şeyma Yıldız](https://github.com/seymayldz/bioinformatics-data-skills/blob/9ac366576abdc8fa49000b269de82be689f7bde4/Final%20MBG6133-%20%C5%9Eeyma%20YILDIZ.ipynb) you can go to In[14]. 
 
 
 
