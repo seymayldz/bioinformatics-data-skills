@@ -63,7 +63,7 @@ I had previously called a library to show the heatmap I created with the "poster
 ```
 sns.set_context("poster")
 ``` 
-I used your code.  For the output [Final MBG6133- Şeyma Yıldız](https://github.com/seymayldz/bioinformatics-data-skills/blob/9ac366576abdc8fa49000b269de82be689f7bde4/Final%20MBG6133-%20%C5%9Eeyma%20YILDIZ.ipynb) you can go to In[14]. 
+I used the code.  For the output [Final MBG6133- Şeyma Yıldız](https://github.com/seymayldz/bioinformatics-data-skills/blob/9ac366576abdc8fa49000b269de82be689f7bde4/Final%20MBG6133-%20%C5%9Eeyma%20YILDIZ.ipynb) you can go to In[14]. 
 
 
 
