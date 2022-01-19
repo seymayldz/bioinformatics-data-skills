@@ -22,7 +22,7 @@ I created a heatmap for the array I created earlier. The code I use to do this:
 ```
 sns.heatmap(array)
 ```
-When I ran this code, *< axessubplot :>* text appeared on the headmap. I used one more code to delete this post. Code: 
+When I ran this code, *< axessubplot :>* text appeared on the heatmap. I used one more code to delete this post. Code: 
 ```
 plt.show()
 ```
