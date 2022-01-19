@@ -7,7 +7,7 @@ The codes I used for that:
 import numpy as np
 import seaborn as sns
 ```
-I created a numpy array of random integers. I set a size for it (100X100 matris). This index of integers ranges from [0, 100].
+I created a numpy array of random integers. I set a size for it (100X100 matrix). This index of integers ranges from [0, 100].
 The code I used for that:
 ```
 array= np.random.randint(0,101, size=(100,100))
